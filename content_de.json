@@ -1,0 +1,53 @@
+{
+  "privacyText": "Alevi App schätzt Ihre Privatsphäre.",
+  "termsText": "Inhalt zur Einführung in die Alevitisch-Bektaschitische Kultur.",
+  "knowledgeItems": [
+    {
+      "title": "Was ist Alevitentum?",
+      "content": "Das Alevitentum ist ein Weg des Herzens, der die Liebe zu Hak-Muhammed-Ali trägt und das Motto von Hadschi Bektasch Weli 'Beherrsche deine Hand, deine Lende und deine Zunge' annimmt.",
+      "category": "Grundlagen",
+      "icon": "book.fill"
+    }
+  ],
+  "stories": [
+    {
+      "title": "Löwe und Gazelle",
+      "content": "In den Armen von Hadschi Bektasch Weli saßen Löwe und Gazelle friedlich zusammen. Ein Symbol für Frieden."
+    }
+  ],
+  "rumors": [],
+  "calendarEvents": [
+    {
+      "date": "13.-15. Feb",
+      "title": "Hizir-Fasten",
+      "color": "blue"
+    }
+  ],
+  "lokmaRecipes": [
+    {
+      "title": "Aschure",
+      "desc": "Einheitsspeise",
+      "ingredients": "Weizen, Kichererbsen, Bohnen, Trockenfrüchte",
+      "steps": "Alle Zutaten kochen und unter Gebeten mischen.",
+      "image": "laurel.leading"
+    }
+  ],
+  "semahItems": [
+    {
+      "title": "Semah der Vierzig",
+      "content": "Repräsentiert die Versammlung der Vierzig Heiligen."
+    }
+  ],
+  "niyazItems": [
+    {
+      "title": "Tischgebet (Gülbank)",
+      "content": "Bismişah... Möge der Tisch gesegnet sein."
+    }
+  ],
+  "quotes": [
+    {
+      "quote": "Kränke nicht, auch wenn du gekränkt wirst.",
+      "author": "Hadschi Bektasch Weli"
+    }
+  ]
+}
