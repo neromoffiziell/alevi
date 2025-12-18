@@ -1,0 +1,92 @@
+{
+  "privacyText": "Zülfikar App gizliliğinize önem verir. Hiçbir kişisel veri 3. şahıslarla paylaşılmaz.",
+  "termsText": "Uygulama içeriği Alevi-Bektaşi kültürünü tanıtmak amaçlıdır.",
+  "knowledgeItems": [
+    {
+      "title": "Alevilik Nedir?",
+      "content": "Alevilik; Hak-Muhammed-Ali sevgisini kalbinde taşıyan, Hz. Ali'nin velayetini kabul eden, Hacı Bektaş Veli'nin 'Eline, beline, diline sahip ol' düsturunu benimseyen bir yoldur.",
+      "category": "Temel Bilgiler",
+      "icon": "book.fill"
+    },
+    {
+      "title": "Dört Kapı Kırk Makam",
+      "content": "Kamil insan olma yolculuğudur. Şeriat, Tarikat, Marifet ve Sırr-ı Hakikat kapılarından geçerek Hakk'a ulaşmayı hedefler.",
+      "category": "Yol & Erkan",
+      "icon": "stairs"
+    }
+  ],
+  "stories": [
+    {
+      "title": "Aslan ve Ceylan",
+      "content": "Hacı Bektaş Veli dergahına gelenler görür ki; kucağında bir ceylan ve bir aslan dostça oturur. Bu, insan-ı kamilin hükmettiği barışın simgesidir."
+    }
+  ],
+  "rumors": [
+    {
+      "title": "Horasan'dan Geliş",
+      "content": "Erenlerin Horasan'dan Anadolu'ya güvercin donunda geldikleri rivayet edilir. Bu, barış ve alçakgönüllülüğü temsil eder."
+    }
+  ],
+  "calendarEvents": [
+    {
+      "date": "13-15 Şubat",
+      "title": "Hızır Orucu",
+      "color": "blue"
+    },
+    {
+      "date": "Her Perşembe",
+      "title": "Cem İbadeti",
+      "color": "green"
+    }
+  ],
+  "lokmaRecipes": [
+    {
+      "title": "Aşure",
+      "desc": "Birlik ve Beraberlik Lokması",
+      "ingredients": "Buğday, Nohut, Fasulye, Kuru Meyveler, Şeker",
+      "steps": "Tüm bakliyatlar ayrı ayrı haşlanır. Büyük kazanda dualar eşliğinde birleştirilir. Kaynayana kadar karıştırılır.",
+      "image": "laurel.leading"
+    },
+    {
+      "title": "Niyaz (Kömbe)",
+      "desc": "Paylaşma Lokması",
+      "ingredients": "Un, Süt, Yağ, Maya",
+      "steps": "Hamur yoğurulur, fırında pişirilir ve Cem sonunda canlara dağıtılır.",
+      "image": "birthday.cake.fill"
+    }
+  ],
+  "semahItems": [
+    {
+      "title": "Kırklar Semahı",
+      "content": "Hz. Muhammed'in Miraç dönüşü Kırklar Meclisi'ne uğraması ve orada aşk ile dönülen semahtır."
+    },
+    {
+      "title": "Turnalar Semahı",
+      "content": "Turna kuşu Alevilikte kutsaldır, gökyüzüne, Hakk'a yükselişi ve Hz. Ali'yi temsil eder."
+    }
+  ],
+  "niyazItems": [
+    {
+      "title": "Sofra Gülbankı",
+      "content": "Bismişah... Sofra nur ola, kaza bela geri dura. Yiyene helal, yedirene delil ola. Lokmalar kabul ola. Gerçeğe Hü."
+    },
+    {
+      "title": "Çerağ Gülbankı",
+      "content": "Çerağ-ı ruşen, fahri dervişan... Allah'ın nuru üzerimize olsun."
+    }
+  ],
+  "quotes": [
+    {
+      "quote": "İncinsen de incitme.",
+      "author": "Hünkar Hacı Bektaş Veli"
+    },
+    {
+      "quote": "Bilimden gidilmeyen yolun sonu karanlıktır.",
+      "author": "Hünkar Hacı Bektaş Veli"
+    },
+     {
+      "quote": "Dönen dönsün ben dönmezem yolumdan.",
+      "author": "Pir Sultan Abdal"
+    }
+  ]
+}
