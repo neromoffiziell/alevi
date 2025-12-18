@@ -1,0 +1,53 @@
+{
+  "privacyText": "Alevi App girîngiyê dide nepeniya we.",
+  "termsText": "Naverok ji bo nasandina çanda Elewî-Bektaşî ye.",
+  "knowledgeItems": [
+    {
+      "title": "Elewîtî Çi Ye?",
+      "content": "Elewîtî rêya hezkirina Heq-Mihemed-Elî ye. Rêya 'Dest, kember û zimanê xwe biparêze' ya Hacî Bektaşê Velî ye.",
+      "category": "Agahiyên Bingehîn",
+      "icon": "book.fill"
+    }
+  ],
+  "stories": [
+    {
+      "title": "Şêr û Xezal",
+      "content": "Hacî Bektaşê Velî şêr û xezal di hembêza xwe de bi dostanî girtiye. Ev nîşana aştiyê ye."
+    }
+  ],
+  "rumors": [],
+  "calendarEvents": [
+    {
+      "date": "13-15 Sibat",
+      "title": "Rojiya Xizir",
+      "color": "blue"
+    }
+  ],
+  "lokmaRecipes": [
+    {
+      "title": "Aşûre",
+      "desc": "Xwarina Yekîtiyê",
+      "ingredients": "Genim, Nok, Fasûlye, Fêkî",
+      "steps": "Hemu malzemeyan bikelînin û bi dua tevlîhev bikin.",
+      "image": "laurel.leading"
+    }
+  ],
+  "semahItems": [
+    {
+      "title": "Semaha Çilî (Kırklar)",
+      "content": "Semaha ku di Civata Çilan de hatiye gerandin."
+    }
+  ],
+  "niyazItems": [
+    {
+      "title": "Gûlbanka Sifreyê",
+      "content": "Bismişah... Sifre nur be, qeza û bela dûr be."
+    }
+  ],
+  "quotes": [
+    {
+      "quote": "Heger tu biêşî jî, neêşîne.",
+      "author": "Hacî Bektaşê Velî"
+    }
+  ]
+}
