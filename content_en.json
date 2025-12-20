@@ -1,56 +1,58 @@
 {
-  "privacyText": "Alevi App values your privacy. No personal data is shared with third parties.",
-  "termsText": "The app content is intended to introduce Alevi-Bektashi culture.",
+  "privacyText": "Privacy Policy...",
+  "termsText": "Terms...",
   "knowledgeItems": [
     {
-      "title": "What is Alevism?",
-      "content": "Alevism is a path of the heart that carries the love of Hak-Muhammed-Ali, accepts the guardianship of Imam Ali, and adopts Haji Bektash Veli's motto 'Master your hands, waist, and tongue'.",
-      "category": "Basics",
-      "icon": "book.fill"
+      "id": "k1",
+      "title": "4 Doors 40 Levels",
+      "content": "The foundation of Alevi teachings...",
+      "category": "Way",
+      "icon": "door.left.hand.open"
     }
   ],
   "stories": [
     {
-      "title": "The Lion and the Gazelle",
-      "content": "Those who came to Haji Bektash Veli saw a lion and a gazelle sitting peacefully in his lap. This symbolizes the peace commanded by the perfect human being."
+      "id": "s1",
+      "title": "The Dove Legend",
+      "content": "Haji Bektash Veli came as a dove..."
     }
   ],
-  "rumors": [],
-  "calendarEvents": [
+  "rumors": [
     {
-      "date": "Feb 13-15",
-      "title": "Khidr Fasting",
-      "color": "blue"
+      "id": "r1",
+      "title": "Karbala",
+      "content": "Martyrdom of Imam Hussain."
     }
   ],
+  "calendarEvents": [],
   "lokmaRecipes": [
     {
-      "title": "Ashura (Noah's Pudding)",
-      "desc": "Unity Meal",
-      "ingredients": "Wheat, Chickpeas, Beans, Dried Fruits, Sugar",
-      "steps": "Boil all ingredients separately. Combine in a large pot with prayers.",
-      "image": "laurel.leading"
+      "id": "l1",
+      "title": "Flour Halva",
+      "desc": "Traditional sweet.",
+      "ingredients": "Flour, butter, sugar.",
+      "steps": "Roast and mix.",
+      "image": "helva"
     }
   ],
   "semahItems": [
     {
+      "id": "sm1",
       "title": "Semah of the Forty",
-      "content": "It represents the gathering of the Forty Saints visited by Prophet Muhammad after Miraj."
+      "content": "Traditional dance."
     }
   ],
   "niyazItems": [
     {
-      "title": "Table Prayer (Gulbank)",
-      "content": "Bismişah... May the table be light. May it be halal to those who eat. May the offerings be accepted."
+      "id": "n1",
+      "title": "Table Prayer",
+      "content": "May it increase..."
     }
   ],
   "quotes": [
     {
-      "quote": "Hurt not, even if you are hurt.",
-      "author": "Haji Bektash Veli"
-    },
-    {
-      "quote": "The end of the path not guided by science is darkness.",
+      "id": "q1",
+      "quote": "Do not hurt even if you are hurt.",
       "author": "Haji Bektash Veli"
     }
   ]
