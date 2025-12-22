@@ -1,67 +1,538 @@
 {
-  "privacyText": "<h3 style=\"color:#fbbf24; font-weight:bold; font-size:18px;\">Gizlilik Politikası</h3><p><strong>Son Güncelleme:</strong> 21 Aralık 2025</p><br><p>Alevi uygulaması (\"Biz\"), kullanıcı verilerinin güvenliğine büyük önem verir. Bu metin, verilerinizin nasıl işlendiğini açıklar.</p><br><h4 style=\"color:#fbbf24; font-weight:bold;\">1. Toplanan Bilgiler</h4><p>Hizmet kalitesini artırmak amacıyla şu veriler toplanabilir:</p><ul><li><strong>Hesap Bilgileri:</strong> Kayıt olurken girilen Ad, Soyad, E-posta.</li><li><strong>Cihaz Bilgisi:</strong> Hata ayıklama için teknik loglar.</li><li><strong>Konum:</strong> Yalnızca 'Cemevi Bul' özelliği kullanıldığında anlık olarak istenir, kaydedilmez.</li></ul><br><h4 style=\"color:#fbbf24; font-weight:bold;\">2. Hesap Silme</h4><p>Kullanıcılar, uygulama içindeki <strong>Ayarlar > Hesabımı Sil</strong> menüsünden tüm verilerini kalıcı olarak silebilirler.</p><br><h4 style=\"color:#fbbf24; font-weight:bold;\">3. İletişim</h4><p>E-Posta: support@alevi.app<br>Telefon: 0850 305 25 58</p>",
-  "termsText": "<h3 style=\"color:#fbbf24; font-weight:bold; font-size:18px;\">Kullanıcı Sözleşmesi</h3><p><strong>Son Güncelleme:</strong> 21 Aralık 2025</p><br><p>Alevi uygulamasını kullanarak aşağıdaki şartları kabul etmiş sayılırsınız.</p><br><h4 style=\"color:#fbbf24; font-weight:bold;\">1. Hizmet Kapsamı</h4><p>Bu uygulama; Alevilik inancına dair deyişler, takvim ve rehberlik hizmeti sunar. İçerikler bilgilendirme amaçlıdır.</p><br><h4 style=\"color:#fbbf24; font-weight:bold;\">2. İçerik Kuralları</h4><p>Uygulama içinde topluluk huzurunu bozan davranışlara <strong>sıfır tolerans</strong> gösterilir. Nefret söylemi, ayrımcılık ve yasa dışı paylaşımlar yasaktır.</p><br><h4 style=\"color:#fbbf24; font-weight:bold;\">3. Sorumluluk Reddi</h4><p>Cemevi konumları ve takvim bilgileri referans amaçlıdır, %100 doğruluk garanti edilmez.</p>",
   "knowledgeItems": [
     {
       "id": "k1",
       "title": "4 Kapı 40 Makam",
-      "content": "Hacı Bektaş Veli'nin öğretisinin temelidir. Şeriat, Tarikat, Marifet ve Hakikat kapılarını içerir.",
+      "content": "Hacı Bektaş Veli öğretisinin temelidir. Kulun olgunlaşma sürecini anlatır: Şeriat, Tarikat, Marifet ve Hakikat kapıları.",
       "category": "Yol & Erkan",
       "icon": "door.left.hand.open"
     },
-     {
+    {
       "id": "k2",
-      "title": "ALEVİLİKTE İNSAN ANLAYIŞI",
-      "content": "Hacı Bektaş Veli'nin öğretisinin temelidir. Şeriat, Tarikat, Marifet ve Hakikat kapılarını içerir.",
-      "category": "Yol & Erkan",
-      "icon": "door.left.hand.open"
+      "title": "Hz. Ali (Şah-ı Merdan)",
+      "content": "Hz. Muhammed'in 'Ben ilmin şehriyim, Ali kapısıdır' dediği; velayetin başı, müminlerin emiri ve yiğitlerin şahıdır.",
+      "category": "Ehl-i Beyt",
+      "icon": "crown.fill"
     },
-    
+    {
+      "id": "k3",
+      "title": "Zülfikar",
+      "content": "Hz. Ali'nin çift başlı kılıcıdır. Bir ucu adaleti, diğer ucu ilmi temsil eder. 'La feta illa Ali, la seyfe illa Zülfikar' (Ali'den yiğit, Zülfikar'dan keskin kılıç yoktur).",
+      "category": "Semboller",
+      "icon": "shield.fill"
+    },
+    {
+      "id": "k4",
+      "title": "Eline, Deline, Beline",
+      "content": "Aleviliğin en temel ahlak kuralıdır. Eline (hırsızlık yapma), Diline (kötü söz söyleme), Beline (iffetini koru) sahip ol ilkesidir.",
+      "category": "Ahlak",
+      "icon": "hand.raised.fill"
+    },
+    {
+      "id": "k5",
+      "title": "12 İmamlar",
+      "content": "Hz. Ali ile başlayan ve Hz. Mehdi ile son bulan, İslam'ın ve Ehl-i Beyt'in nurunu taşıyan 12 önderdir.",
+      "category": "Tarih",
+      "icon": "12.circle.fill"
+    },
+    {
+      "id": "k6",
+      "title": "Musahiplik",
+      "content": "Yol kardeşliğidir. Kan bağına değil, ikrar bağına dayanır. Musahipler dünya ve ahirette birbirinin kefilidir.",
+      "category": "Yol & Erkan",
+      "icon": "person.2.fill"
+    },
+    {
+      "id": "k7",
+      "title": "Rızalık Şehri",
+      "content": "Cem ibadetinin ve sosyal yaşamın temelidir. Kul hakkı olanın ibadeti kabul olmaz, önce helalleşmek ve rızalık almak şarttır.",
+      "category": "İbadet",
+      "icon": "heart.fill"
+    },
+    {
+      "id": "k8",
+      "title": "Tevella ve Teberra",
+      "content": "Ehl-i Beyt'i seveni sevmek (Tevella) ve Ehl-i Beyt'e zulmedenlerden uzak durmak (Teberra) ilkesidir.",
+      "category": "İnanç",
+      "icon": "arrow.left.and.right"
+    },
+    {
+      "id": "k9",
+      "title": "Cem İbadeti",
+      "content": "Alevilerin toplu halde Hakk'a niyaz ettikleri, birliğin sağlandığı, Kırklar Meclisi'nin simgelendiği ibadettir.",
+      "category": "Cem",
+      "icon": "flame.fill"
+    },
+    {
+      "id": "k10",
+      "title": "12 Hizmet",
+      "content": "Cem'in yürütülmesi için yapılan 12 görev: Mürşid, Rehber, Gözcü, Çerağcı, Zakir, Süpürgeci, Sakkacı, Lokmacı, Peyk, İznikçi, Bekçi, Semahçı.",
+      "category": "Cem",
+      "icon": "person.3.fill"
+    },
+    {
+      "id": "k11",
+      "title": "Mürşid-i Kamil",
+      "content": "Yol gösterici, ışık tutan, olgun insan. Hacı Bektaş Veli der ki: 'Mürşidi olmayanın, müşgülü hallolmaz.'",
+      "category": "Yol & Erkan",
+      "icon": "star.fill"
+    },
+    {
+      "id": "k12",
+      "title": "Saz ve Söz (Telli Kuran)",
+      "content": "Bağlama, Alevilikte kutsal sayılır ve 'Telli Kuran' olarak adlandırılır. Deyişler ve nefesler saz eşliğinde Hakk'a ulaşır.",
+      "category": "Kültür",
+      "icon": "music.note"
+    },
+    {
+      "id": "k13",
+      "title": "Gadir-i Hum",
+      "content": "Hz. Muhammed'in Veda Haccı dönüşü Hz. Ali'yi halife ve vasi tayin ettiği gündür. Alevilikte en büyük bayram kabul edilir.",
+      "category": "Tarih",
+      "icon": "calendar"
+    },
+    {
+      "id": "k14",
+      "title": "Enel Hak",
+      "content": "Hallac-ı Mansur'un 'Ben Hakk'ım' (Hakk'tan ayrı değilim) sözüyle özetlenen Vahdet-i Vücut (Varlık Birliği) anlayışıdır.",
+      "category": "Felsefe",
+      "icon": "infinity"
+    },
+    {
+      "id": "k15",
+      "title": "Düşkünlük",
+      "content": "Yolun kurallarına uymayan, büyük suç işleyen (adam öldürme, zina vb.) kişinin toplumdan geçici veya kalıcı dışlanmasıdır.",
+      "category": "Hukuk",
+      "icon": "exclamationmark.triangle.fill"
+    },
+    {
+      "id": "k16",
+      "title": "Çerağ (Delil)",
+      "content": "Cemlerde yakılan mum veya ışık, Nur suresindeki 'Allah göklerin ve yerin nurudur' ayetini ve Ehl-i Beyt'in ışığını temsil eder.",
+      "category": "Semboller",
+      "icon": "sun.max.fill"
+    },
+    {
+      "id": "k17",
+      "title": "Dar-ı Mansur",
+      "content": "Cem meydanında canların sorgudan geçerken durdukları duruştur. Hallac-ı Mansur'un Hakk yolunda canını vermesini simgeler.",
+      "category": "Cem",
+      "icon": "figure.stand"
+    },
+    {
+      "id": "k18",
+      "title": "Pençe-i Âl-i Abâ",
+      "content": "Hz. Muhammed, Hz. Ali, Hz. Fatma, Hz. Hasan ve Hz. Hüseyin'den oluşan 5 kutsal şahsiyeti temsil eder.",
+      "category": "Ehl-i Beyt",
+      "icon": "hand.point.up.left.fill"
+    }
   ],
+
   "stories": [
     {
       "id": "s1",
       "title": "Hacı Bektaş Veli ve Güvercin",
-      "content": "Anadolu'ya gelirken barışın simgesi güvercin donunda geldiği rivayet edilir."
+      "content": "Hünkar'ın Anadolu'ya gelirken gücünü göstermek için şahin değil, barışın simgesi güvercin donunda geldiği rivayet edilir."
+    },
+    {
+      "id": "s2",
+      "title": "Hz. Ali ve Hayber Kalesi",
+      "content": "Hz. Ali'nin fethedilemez denilen Hayber Kalesi'nin devasa kapısını tek eliyle söküp kalkan olarak kullandığı cenk."
+    },
+    {
+      "id": "s3",
+      "title": "Sarı Saltuk'un Tahta Kılıcı",
+      "content": "Sarı Saltuk'un zalimlere karşı tahta bir kılıçla durduğu, önemli olanın kılıç değil yürek ve inanç olduğunu gösterdiği menkıbe."
+    },
+    {
+      "id": "s4",
+      "title": "Abdal Musa ve Geyik",
+      "content": "Kaygusuz Abdal'ın avladığı geyiğin aslında Abdal Musa olduğunu, attığı okun Abdal Musa'nın koltuğunun altında çıkmasıyla anlaması."
+    },
+    {
+      "id": "s5",
+      "title": "Yunus Emre ve Odunlar",
+      "content": "Yunus'un Taptuk Emre dergahına 40 yıl boyunca sadece dümdüz odun taşıması ve 'Bu kapıdan içeri odunun bile eğrisi giremez' demesi."
+    },
+    {
+      "id": "s6",
+      "title": "Hz. Fatma'nın Çeyizi",
+      "content": "Hz. Fatma'nın düğün gecesi kapıya gelen fakire kendi gelinliğini verdiği, dünya malına tamah etmediğini gösteren hikaye."
+    },
+    {
+      "id": "s7",
+      "title": "Hallac-ı Mansur",
+      "content": "'Enel Hakk' dediği için derisi yüzülen ancak inancından ve davasından asla dönmeyen büyük aşığın hikayesi."
+    },
+    {
+      "id": "s8",
+      "title": "Veysel Karani'nin Aşkı",
+      "content": "Hz. Muhammed'i görmeden seven, Yemen'den gelip göremeyince hırkasını alıp dönen Veysel Karani'nin sadakati."
+    },
+    {
+      "id": "s9",
+      "title": "Balım Sultan",
+      "content": "Bektaşi yolunun ikinci piri Balım Sultan'ın, dağınık haldeki Alevi-Bektaşi erkanını düzenleyip sistemleştirmesi."
+    },
+    {
+      "id": "s10",
+      "title": "Karacaahmet Sultan",
+      "content": "Rum diyarında aslanlara binen, yılanı kamçı yapan dervişlerin aksine, cansız kayayı yürüterek keramet gösteren ulu eren."
+    },
+    {
+      "id": "s11",
+      "title": "Hz. Ali ve Aslan",
+      "content": "Mirac yolunda Hz. Muhammed'in önüne çıkan aslanın, Hz. Ali'nin nişanesini taşıdığının anlaşılması (Kırklar Meclisi)."
+    },
+    {
+      "id": "s12",
+      "title": "Seyyid Nesimi",
+      "content": "Derisi yüzülürken bile Hakk'ı zikreden, inancından taviz vermeyen büyük Hurufi şairi."
     }
   ],
+
   "rumors": [
     {
       "id": "r1",
-      "title": "Kerbela",
-      "content": "Hz. Hüseyin ve yoldaşlarının şehadeti."
+      "title": "Kerbela Olayı",
+      "content": "Hicri 680 yılında Hz. Hüseyin ve 72 yoldaşının Yezid ordusunca susuz bırakılarak şehit edilmesi. Matemin kaynağıdır."
+    },
+    {
+      "id": "r2",
+      "title": "Gadir-i Hum",
+      "content": "Hz. Muhammed'in 'Ben kimin mevlası isem Ali de onun mevlasıdır' diyerek Hz. Ali'nin velayetini ilan etmesi."
+    },
+    {
+      "id": "r3",
+      "title": "Kırklar Meclisi",
+      "content": "Hz. Muhammed'in Mirac dönüşü uğradığı, kadın ve erkeğin bir olduğu, bir üzüm tanesinin 40 cana pay edildiği meclis."
+    },
+    {
+      "id": "r4",
+      "title": "Sivas (Madımak) Katliamı",
+      "content": "2 Temmuz 1993'te Sivas'ta Pir Sultan Abdal şenlikleri sırasında 33 aydın ve sanatçının yakılarak katledilmesi."
+    },
+    {
+      "id": "r5",
+      "title": "Baba İlyas ve Baba İshak İsyanı",
+      "content": "Selçuklu döneminde Anadolu halkının haksızlığa ve zulme karşı başlattığı, Babai ayaklanması olarak bilinen büyük direniş."
+    },
+    {
+      "id": "r6",
+      "title": "Şah Kalender Çelebi",
+      "content": "Kanuni döneminde Osmanlı'nın haksızlıklarına karşı Hacı Bektaş soyundan gelen Kalender Çelebi'nin büyük mücadelesi."
+    },
+    {
+      "id": "r7",
+      "title": "Pir Sultan'ın İdamı",
+      "content": "Hızır Paşa tarafından Sivas'ta 'Dönen dönsün ben dönmezem yolumdan' dediği için idam edilen Pir Sultan Abdal."
+    },
+    {
+      "id": "r8",
+      "title": "Dersim Olayları",
+      "content": "1937-38 yıllarında Dersim bölgesinde yaşanan acı olaylar ve Seyit Rıza'nın idamı."
+    },
+    {
+      "id": "r9",
+      "title": "Çorum ve Maraş Olayları",
+      "content": "1978 ve 1980 yıllarında Alevi vatandaşlara yönelik yapılan saldırılar ve katliamlar."
+    },
+    {
+      "id": "r10",
+      "title": "Şah Kulu İsyanı",
+      "content": "Osmanlı'nın baskılarına karşı Teke yöresinde başlayan ve Şah İsmail'e sempati duyan Alevilerin ayaklanması."
     }
   ],
-  "calendarEvents": [],
+
   "lokmaRecipes": [
     {
       "id": "l1",
       "title": "Un Helvası",
-      "desc": "Niyaz helvası.",
-      "ingredients": "Un, yağ, şeker, su.",
-      "steps": "Kavur ve şerbetle.",
+      "desc": "Cemlerde ve ölü aşında dağıtılan en yaygın niyaz.",
+      "ingredients": "Un, Tereyağı, Şeker, Süt/Su.",
+      "steps": "Un rengi dönene kadar sabırla kavrulur. Şerbeti verilir. Kaşıkla şekil verilip dağıtılır.",
       "image": "helva"
+    },
+    {
+      "id": "l2",
+      "title": "Aşure",
+      "desc": "Muharrem orucunun sonunda yapılan, birliğin ve bereketin simgesi.",
+      "ingredients": "Buğday, Nohut, Fasulye, Kuru yemişler, Şeker.",
+      "steps": "En az 12 çeşit malzeme kazanda dualarla kaynatılır. Konu komşuya dağıtılır.",
+      "image": "asure"
+    },
+    {
+      "id": "l3",
+      "title": "Lokma Tatlısı",
+      "desc": "Adaklarda ve hayır işlerinde dökülen şerbetli hamur.",
+      "ingredients": "Un, Maya, Tuz, Su, Yağ, Şerbet.",
+      "steps": "Mayalı cıvık hamur avuç içinde sıkılıp yağa atılır, kızarınca şerbete konur.",
+      "image": "lokma_tatlisi"
+    },
+    {
+      "id": "l4",
+      "title": "Hıdrellez Pilavı",
+      "desc": "Baharı karşılarken yapılan etli pilav.",
+      "ingredients": "Pirinç, Kuzu eti, Tereyağı.",
+      "steps": "Kurban eti haşlanır, suyuyla pilav yapılır. Etler pilavın üstüne didilir.",
+      "image": "pilav"
+    },
+    {
+      "id": "l5",
+      "title": "Kömbe",
+      "desc": "Anadolu Alevilerinin ziyaretlere giderken yaptığı çörek.",
+      "ingredients": "Un, Süt, Yağ, Susam.",
+      "steps": "Hamur yoğurulur, iki sac arasında veya fırında pişirilir. Tok tutar.",
+      "image": "kombe"
+    },
+    {
+      "id": "l6",
+      "title": "Niyaz Çöreği",
+      "desc": "Cemlerde dağıtılan tuzlu veya az şekerli çörek.",
+      "ingredients": "Un, Yağ, Yoğurt, Karbonat.",
+      "steps": "Hamur yoğurulur, üzerine desen yapılır, fırında pişirilip eşit pay edilir.",
+      "image": "niyaz_coregi"
+    },
+    {
+      "id": "l7",
+      "title": "Babiko (Zerfet)",
+      "desc": "Dersim ve Sivas yöresine ait, tereyağlı ve sarımsaklı yoğurtlu hamur işi.",
+      "ingredients": "Un, Su, Tuz, Tereyağı, Sarımsaklı Yoğurt.",
+      "steps": "Büyük bir ekmek pişirilir, içi oyulur. Oyulan kısımlar ufalanıp içine konur, üzerine kızgın yağ dökülür.",
+      "image": "babiko"
+    },
+    {
+      "id": "l8",
+      "title": "Bat",
+      "desc": "Tokat yöresi Alevilerinin meşhur soğuk yemeği.",
+      "ingredients": "Yeşil mercimek, düğü (ince bulgur), salça, ceviz, yaprak.",
+      "steps": "Mercimek haşlanır, diğer malzemelerle sulu kıvamda karıştırılır. Asma yaprağı ile yenir.",
+      "image": "bat"
+    },
+    {
+      "id": "l9",
+      "title": "Zülbiye",
+      "desc": "Muharrem ayında yapılan soğanlı et yemeği.",
+      "ingredients": "Nohut, Et, Arpacık soğan, Kimyon.",
+      "steps": "Et ve nohut pişirilir, bol arpacık soğan eklenir. Özel gün yemeğidir.",
+      "image": "zulbiye"
+    },
+    {
+      "id": "l10",
+      "title": "Sütlaç",
+      "desc": "Dergahlarda 'sütlü aş' olarak bilinen hafif tatlı.",
+      "ingredients": "Süt, Pirinç, Şeker.",
+      "steps": "Pirinç haşlanır, süt ve şekerle kıvam alana kadar pişirilir. Üzeri yakılabilir.",
+      "image": "sutlac"
     }
   ],
+
   "semahItems": [
     {
       "id": "sm1",
       "title": "Kırklar Semahı",
-      "content": "Kırklar meclisinde dönülen semah."
+      "content": "Kırklar Meclisi'nde dönülen, aşk ve cezbe halini anlatan en temel semahtır."
+    },
+    {
+      "id": "sm2",
+      "title": "Turnalar Semahı",
+      "content": "Turna kuşunun uçuşunu ve Hz. Ali'ye selam götürüşünü simgeler. Figürleri kuş kanadı gibidir."
+    },
+    {
+      "id": "sm3",
+      "title": "Çark Semahı",
+      "content": "Evrenin, atomun ve gezegenlerin dönüşünü simgeler. Genellikle Cem'in sonunda dönülür."
+    },
+    {
+      "id": "sm4",
+      "title": "Tahtacı Semahları",
+      "content": "Ege ve Akdeniz Tahtacı Türkmenlerinin kendine has, sert ve ritmik figürlü semahlarıdır."
+    },
+    {
+      "id": "sm5",
+      "title": "Hubyar Semahı",
+      "content": "Tokat bölgesinde Hubyar Sultan ocağına bağlı canların döndüğü coşkulu semah."
+    },
+    {
+      "id": "sm6",
+      "title": "Muhammed Ali Semahı",
+      "content": "Hz. Muhammed ve Hz. Ali'ye duyulan aşkı dile getiren, ellerin göğe ve yere (Hakk'tan alıp halka verme) baktığı semah."
+    },
+    {
+      "id": "sm7",
+      "title": "Gönüller Semahı",
+      "content": "Canların gönül birliğini simgeleyen, daha yavaş ve huşu içinde dönülen semah."
+    },
+    {
+      "id": "sm8",
+      "title": "Hacı Bektaş Semahı",
+      "content": "Hünkar'ın dergahında yüzyıllardır dönülen, Nevşehir yöresine ait semah."
+    },
+    {
+      "id": "sm9",
+      "title": "Urfa Kısas Semahı",
+      "content": "Kısas bölgesindeki Türkmen Alevilerin özgün nefeslerle döndüğü semah."
+    },
+    {
+      "id": "sm10",
+      "title": "Mengü Semahı",
+      "content": "Ege bölgesinde, özellikle İzmir ve çevresinde yaygın olan bir semah türü."
     }
   ],
+
   "niyazItems": [
     {
       "id": "n1",
-      "title": "Sofraya Gülbank",
-      "content": "Bismişah... Artsın eksilmesin."
+      "title": "Sofra Gülbankı",
+      "content": "Bismişah... Artsın eksilmesin, taşsın dökülmesin. Hak-Muhammed-Ali bereketini vere. Yiyenlere helal, yedirenlere delil ola. Gerçeğe Hü."
+    },
+    {
+      "id": "n2",
+      "title": "Sabah Gülbankı",
+      "content": "Bismişah... Günümüz hayır ola, şerrimiz def ola. Müminler şad ola, münafıklar mat ola. Hak-Muhammed-Ali yardımcımız, Bozatlı Hızır yoldaşımız ola."
+    },
+    {
+      "id": "n3",
+      "title": "Yatarken Gülbank",
+      "content": "Yattım Allah kaldır beni, nur içine daldır beni. Can bedenden ayrılırken iman ile gönder beni. Başım yastıkta, gözüm dergahta, Hü."
+    },
+    {
+      "id": "n4",
+      "title": "Lokma Gülbankı",
+      "content": "Lokmalarınız kabul, muratlarınız hasıl ola. Dergah-ı izzetine yazıla. Hak saklaya, Hızır bekleye. Dil bizden, nefes Hünkar'dan ola."
+    },
+    {
+      "id": "n5",
+      "title": "İkrar Gülbankı",
+      "content": "Allah Allah... İkrarınız kadim, yüzünüz ak, gönlünüz pak ola. Yolunuz açık, çırağınız sönmez ola. Hak-Muhammed-Ali defterine kaydola."
+    },
+    {
+      "id": "n6",
+      "title": "Çerağ (Mum) Uyandırma",
+      "content": "Çerağımız yansın yakılsın, Allah'ın nuru cemaatimizin üzerine olsun. Müminlerin kalbi nur ile dolsun. Gerçeğe Hü."
+    },
+    {
+      "id": "n7",
+      "title": "Yola Çıkarken",
+      "content": "Bismişah... Gittiğiniz yoldan, durduğunuz elden, çağırdığınız pirden şefaat göresiniz. Hızır yoldaşınız, Ali kılavuzunuz ola."
+    },
+    {
+      "id": "n8",
+      "title": "Hasta Duası",
+      "content": "Allah Allah... Şafi isminle şifa veresin. Derdi veren Allah dermanını da vere. Ehlibeyt hürmetine hastalara şifa, dertlilere deva ihsan eyleye."
+    },
+    {
+      "id": "n9",
+      "title": "Hizmet Sahiplerine",
+      "content": "Hizmetiniz kabul ola. Yüzünüz ak ola. Hak-Muhammed-Ali katarından ayrılmayasınız. Emekleriniz zaya gitmeye."
+    },
+    {
+      "id": "n10",
+      "title": "Nad-i Ali Duası",
+      "content": "Zorda kalındığında okunan dua: 'Çağır Ali'yi ki, o tecellilerin mazharıdır. Onu bütün dertlerinde kendine yardımcı bulursun...'"
     }
   ],
+
   "quotes": [
     {
       "id": "q1",
       "quote": "İncinsen de incitme.",
       "author": "Hacı Bektaş Veli"
+    },
+    {
+      "id": "q2",
+      "quote": "İlimden gidilmeyen yolun sonu karanlıktır.",
+      "author": "Hacı Bektaş Veli"
+    },
+    {
+      "id": "q3",
+      "quote": "Eline, beline, diline sahip ol.",
+      "author": "Hacı Bektaş Veli"
+    },
+    {
+      "id": "q4",
+      "quote": "Ben ilmin şehriyim, Ali ise kapısıdır.",
+      "author": "Hz. Muhammed"
+    },
+    {
+      "id": "q5",
+      "quote": "Dönen dönsün, ben dönmezem yolumdan.",
+      "author": "Pir Sultan Abdal"
+    },
+    {
+      "id": "q6",
+      "quote": "Bana harflerden birini öğretenin kırk yıl kölesi olurum.",
+      "author": "Hz. Ali"
+    },
+    {
+      "id": "q7",
+      "quote": "Haksızlık karşısında eğilmeyiniz. Çünkü hakkınızla beraber şerefinizi de kaybedersiniz.",
+      "author": "Hz. Ali"
+    },
+    {
+      "id": "q8",
+      "quote": "Cehennem dediğin, dal odun yoktur; herkes ateşini bile götürür.",
+      "author": "Pir Sultan Abdal"
+    },
+    {
+      "id": "q9",
+      "quote": "Yaratılanı hoş gör, Yaratan'dan ötürü.",
+      "author": "Yunus Emre"
+    },
+    {
+      "id": "q10",
+      "quote": "En büyük keramet, çalışmaktır.",
+      "author": "Hacı Bektaş Veli"
+    },
+    {
+      "id": "q11",
+      "quote": "Okunacak en büyük kitap insandır.",
+      "author": "Hacı Bektaş Veli"
+    },
+    {
+      "id": "q12",
+      "quote": "Gelin canlar bir olalım.",
+      "author": "Pir Sultan Abdal"
+    },
+    {
+      "id": "q13",
+      "quote": "Zahiri harap olanın, batını mamur olmaz.",
+      "author": "Hacı Bektaş Veli"
+    },
+    {
+      "id": "q14",
+      "quote": "İlim, servetten üstündür. Çünkü serveti sen korursun; ilim ise seni korur.",
+      "author": "Hz. Ali"
+    },
+    {
+      "id": "q15",
+      "quote": "Kişi, bilmediğinin düşmanıdır.",
+      "author": "Hz. Ali"
+    },
+    {
+      "id": "q16",
+      "quote": "Edebi edepsizden öğren.",
+      "author": "Yunus Emre"
+    },
+    {
+      "id": "q17",
+      "quote": "Muhabbet bağında bir gül açıldı, kokusu dünyaya saçıldı.",
+      "author": "Kul Himmet"
+    },
+    {
+      "id": "q18",
+      "quote": "Aşkın aldı benden beni, bana seni gerek seni.",
+      "author": "Yunus Emre"
+    },
+    {
+      "id": "q19",
+      "quote": "Bir olalım, iri olalım, diri olalım.",
+      "author": "Hacı Bektaş Veli"
+    },
+    {
+      "id": "q20",
+      "quote": "Adalet mülkün temelidir.",
+      "author": "Hz. Ömer (Hz. Ali'nin adalet anlayışına atıfla kullanılır)"
     }
   ]
 }
