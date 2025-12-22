@@ -1,59 +1,537 @@
 {
-  "privacyText": "Privacy Policy...",
-  "termsText": "Terms...",
   "knowledgeItems": [
     {
       "id": "k1",
       "title": "4 Doors 40 Levels",
-      "content": "The foundation of Alevi teachings...",
-      "category": "Way",
+      "content": "The foundation of Haji Bektash Veli's teaching. It describes the maturation process of the human soul: Sharia, Tariqa, Marifa, and Haqiqa.",
+      "category": "Path & Erkan",
       "icon": "door.left.hand.open"
+    },
+    {
+      "id": "k2",
+      "title": "Imam Ali (Shah-i Merdan)",
+      "content": "The one about whom Prophet Muhammad said, 'I am the city of knowledge, and Ali is its gate.' He is the Commander of the Faithful and the King of Braves.",
+      "category": "Ahl al-Bayt",
+      "icon": "crown.fill"
+    },
+    {
+      "id": "k3",
+      "title": "Zulfiqar",
+      "content": "The double-headed sword of Imam Ali. One tip represents justice, the other knowledge. 'There is no hero like Ali, no sword like Zulfiqar.'",
+      "category": "Symbols",
+      "icon": "shield.fill"
+    },
+    {
+      "id": "k4",
+      "title": "Hand, Tongue, Loins",
+      "content": "The fundamental moral rule of Alevism: Control your Hand (do not steal), your Tongue (do not speak evil), and your Loins (control your desires).",
+      "category": "Ethics",
+      "icon": "hand.raised.fill"
+    },
+    {
+      "id": "k5",
+      "title": "The 12 Imams",
+      "content": "The 12 spiritual leaders starting with Imam Ali and ending with Imam Mahdi, carrying the light of Islam and the Ahl al-Bayt.",
+      "category": "History",
+      "icon": "12.circle.fill"
+    },
+    {
+      "id": "k6",
+      "title": "Musahiplik (Spiritual Brotherhood)",
+      "content": "A sacred bond of brotherhood not by blood, but by oath (Ikrar). Musahips are responsible for each other in this world and the hereafter.",
+      "category": "Path & Erkan",
+      "icon": "person.2.fill"
+    },
+    {
+      "id": "k7",
+      "title": "City of Consent (Rızalık)",
+      "content": "The basis of worship and social life. Worship is not accepted if one has violated another's rights; mutual forgiveness and consent are required first.",
+      "category": "Worship",
+      "icon": "heart.fill"
+    },
+    {
+      "id": "k8",
+      "title": "Tevella and Teberra",
+      "content": "The principle of loving those who love the Ahl al-Bayt (Tevella) and distancing oneself from those who oppress them (Teberra).",
+      "category": "Belief",
+      "icon": "arrow.left.and.right"
+    },
+    {
+      "id": "k9",
+      "title": "Cem Ceremony",
+      "content": "The communal worship gathering where unity is achieved, symbolizing the Assembly of the Forty (Kırklar Meclisi).",
+      "category": "Cem",
+      "icon": "flame.fill"
+    },
+    {
+      "id": "k10",
+      "title": "12 Services",
+      "content": "The 12 duties performed to conduct the Cem: Murshid, Guide, Watchman, Lamp Lighter, Hymn Singer (Zakir), Sweeper, Water Carrier, etc.",
+      "category": "Cem",
+      "icon": "person.3.fill"
+    },
+    {
+      "id": "k11",
+      "title": "Murshid-i Kamil (Perfect Guide)",
+      "content": "The spiritual guide who sheds light on the path. Haji Bektash Veli says: 'One without a Murshid cannot solve their difficulties.'",
+      "category": "Path & Erkan",
+      "icon": "star.fill"
+    },
+    {
+      "id": "k12",
+      "title": "Saz and Word (Stringed Quran)",
+      "content": "The Baglama (Saz) is considered sacred, often called the 'Stringed Quran.' Prayers and hymns reach the Truth accompanied by music.",
+      "category": "Culture",
+      "icon": "music.note"
+    },
+    {
+      "id": "k13",
+      "title": "Ghadir Khumm",
+      "content": "The event where Prophet Muhammad declared Ali as his successor and guardian. It is considered the greatest holiday in Alevism.",
+      "category": "History",
+      "icon": "calendar"
+    },
+    {
+      "id": "k14",
+      "title": "Enel Hak (I am the Truth)",
+      "content": "The concept of Unity of Existence (Wahdat al-Wujud), summarized by Hallaj-i Mansur's words meaning 'I am not separate from God.'",
+      "category": "Philosophy",
+      "icon": "infinity"
+    },
+    {
+      "id": "k15",
+      "title": "Düşkünlük (Fallen)",
+      "content": "The temporary or permanent exclusion from the community for those who commit major crimes (murder, adultery, etc.) and break the rules of the Path.",
+      "category": "Law",
+      "icon": "exclamationmark.triangle.fill"
+    },
+    {
+      "id": "k16",
+      "title": "Cheragh (The Light)",
+      "content": "The candle or light lit in Cems, representing the verse 'God is the Light of the heavens and earth' and the light of the Ahl al-Bayt.",
+      "category": "Symbols",
+      "icon": "sun.max.fill"
+    },
+    {
+      "id": "k17",
+      "title": "Dar-ı Mansur",
+      "content": "The standing posture in the Cem square during questioning. It symbolizes Hallaj-i Mansur sacrificing his life for the Truth.",
+      "category": "Cem",
+      "icon": "figure.stand"
+    },
+    {
+      "id": "k18",
+      "title": "Pençe-i Âl-i Abâ",
+      "content": "Symbolizes the 5 Holy Figures: Prophet Muhammad, Imam Ali, Hz. Fatma, Imam Hasan, and Imam Husayn.",
+      "category": "Ahl al-Bayt",
+      "icon": "hand.point.up.left.fill"
     }
   ],
+
   "stories": [
     {
       "id": "s1",
-      "title": "The Dove Legend",
-      "content": "Haji Bektash Veli came as a dove..."
+      "title": "Haji Bektash Veli and the Dove",
+      "content": "It is rumored that the Hunkar came to Anatolia not as a hawk to show power, but in the guise of a dove, representing peace."
+    },
+    {
+      "id": "s2",
+      "title": "Imam Ali and Khaybar",
+      "content": "The battle where Imam Ali tore off the massive gate of the Khaybar Fortress, which was said to be unmovable, and used it as a shield."
+    },
+    {
+      "id": "s3",
+      "title": "Sarı Saltuk's Wooden Sword",
+      "content": "The legend of Sarı Saltuk standing against tyrants with a wooden sword, showing that power lies in the heart and faith, not in steel."
+    },
+    {
+      "id": "s4",
+      "title": "Abdal Musa and the Deer",
+      "content": "The story of Kaygusuz Abdal hunting a deer, only to find the arrow under Abdal Musa's arm, realizing the unity of souls."
+    },
+    {
+      "id": "s5",
+      "title": "Yunus Emre's Wood",
+      "content": "Yunus carried only straight wood to Taptuk Emre's dervish lodge for 40 years, saying 'Even crooked wood cannot enter through this door.'"
+    },
+    {
+      "id": "s6",
+      "title": "Hz. Fatma's Wedding Dress",
+      "content": "The story of Hz. Fatma giving her own wedding dress to a beggar at her door on her wedding night, showing detachment from worldly goods."
+    },
+    {
+      "id": "s7",
+      "title": "Hallaj-i Mansur",
+      "content": "The story of the great lover who was skinned alive for saying 'Enel Hak' (I am the Truth) but never turned back from his faith."
+    },
+    {
+      "id": "s8",
+      "title": "Veysel Karani's Love",
+      "content": "The loyalty of Veysel Karani, who loved Prophet Muhammad without seeing him, came from Yemen, and returned with just his cloak."
+    },
+    {
+      "id": "s9",
+      "title": "Balım Sultan",
+      "content": "Legends about Balım Sultan, the second Pir of the Bektashi order, who systematized the rituals and the path."
+    },
+    {
+      "id": "s10",
+      "title": "Karacaahmet Sultan",
+      "content": "The saint who rode a rock as if it were a horse, demonstrating miracles against those who rode lions, showing power over the inanimate."
+    },
+    {
+      "id": "s11",
+      "title": "Imam Ali and the Lion",
+      "content": "The revelation during the Miraj where the lion blocking Prophet Muhammad's path was recognized as possessing the mark of Ali."
+    },
+    {
+      "id": "s12",
+      "title": "Seyyid Nesimi",
+      "content": "The great Hurufi poet who praised the Truth even while being skinned alive, never compromising his belief."
     }
   ],
+
   "rumors": [
     {
       "id": "r1",
-      "title": "Karbala",
-      "content": "Martyrdom of Imam Hussain."
+      "title": "Battle of Karbala",
+      "content": "The martyrdom of Imam Husayn and his 72 companions by Yazid's army in 680 AD after being left without water. The source of the Mourning."
+    },
+    {
+      "id": "r2",
+      "title": "Event of Ghadir Khumm",
+      "content": "Prophet Muhammad's declaration: 'For whomever I am his Mawla (master), Ali is also his Mawla.'"
+    },
+    {
+      "id": "r3",
+      "title": "Assembly of the Forty",
+      "content": "The spiritual gathering Prophet Muhammad visited during Miraj, where women and men were one, and one grape was shared among forty."
+    },
+    {
+      "id": "r4",
+      "title": "Sivas (Madimak) Massacre",
+      "content": "The tragic event on July 2, 1993, where 33 intellectuals and artists were burned to death in Sivas. We have not forgotten."
+    },
+    {
+      "id": "r5",
+      "title": "Baba Ilyas and Baba Ishak",
+      "content": "The great resistance known as the Babai uprising, started by the Anatolian people against injustice during the Seljuk period."
+    },
+    {
+      "id": "r6",
+      "title": "Shah Kalender Chelebi",
+      "content": "The struggle of Kalender Chelebi, a descendant of Hacı Bektaş, against Ottoman injustices during the reign of Suleiman the Magnificent."
+    },
+    {
+      "id": "r7",
+      "title": "Execution of Pir Sultan",
+      "content": "Pir Sultan Abdal, executed in Sivas by Hızır Pasha for saying 'Let them turn, I will not turn from my path.'"
+    },
+    {
+      "id": "r8",
+      "title": "Dersim Events",
+      "content": "The tragic events and operations that took place in the Dersim region in 1937-38, and the execution of Seyit Rıza."
+    },
+    {
+      "id": "r9",
+      "title": "Çorum and Maraş Incidents",
+      "content": "Attacks and massacres directed against Alevi citizens in 1978 and 1980."
+    },
+    {
+      "id": "r10",
+      "title": "Shah Kulu Rebellion",
+      "content": "The uprising of Alevis in the Teke region against Ottoman pressure, sympathizing with Shah Ismail."
     }
   ],
-  "calendarEvents": [],
+
   "lokmaRecipes": [
     {
       "id": "l1",
       "title": "Flour Halva",
-      "desc": "Traditional sweet.",
-      "ingredients": "Flour, butter, sugar.",
-      "steps": "Roast and mix.",
-      "image": "helva"
+      "desc": "The most common 'Niyaz' distributed in Cems and funerals.",
+      "ingredients": "Flour, Butter, Sugar, Milk/Water.",
+      "steps": "Roast flour patiently until it changes color. Add syrup. Shape with a spoon and distribute."
+    },
+    {
+      "id": "l2",
+      "title": "Ashura (Noah's Pudding)",
+      "desc": "Symbol of unity and abundance, made at the end of the Muharram fast.",
+      "ingredients": "Wheat, Chickpeas, Beans, Dried Fruits, Sugar.",
+      "steps": "Boil at least 12 ingredients with prayers. Distribute to neighbors.",
+      "image": "asure"
+    },
+    {
+      "id": "l3",
+      "title": "Lokma Dessert",
+      "desc": "Fried sweet dough distributed for vows and charity.",
+      "ingredients": "Flour, Yeast, Salt, Water, Oil, Syrup.",
+      "steps": "Squeeze yeast dough in palm, fry in oil, then dip in syrup.",
+      "image": "lokma_tatlisi"
+    },
+    {
+      "id": "l4",
+      "title": "Hıdrellez Pilaf",
+      "desc": "Meat pilaf made while welcoming Spring.",
+      "ingredients": "Rice, Lamb meat, Butter.",
+      "steps": "Boil the sacrificial meat, make pilaf with its broth. Shred meat on top.",
+      "image": "pilav"
+    },
+    {
+      "id": "l5",
+      "title": "Kömbe",
+      "desc": "Traditional pastry made by Anatolian Alevis when visiting sacred sites.",
+      "ingredients": "Flour, Milk, Oil, Sesame.",
+      "steps": "Knead the dough, bake between two metal sheets or in an oven. It keeps you full.",
+      "image": "kombe"
+    },
+    {
+      "id": "l6",
+      "title": "Niyaz Bread",
+      "desc": "Salty or slightly sweet bread distributed in Cems.",
+      "ingredients": "Flour, Oil, Yogurt, Baking Soda.",
+      "steps": "Knead dough, make patterns on top, bake, and share equally.",
+      "image": "niyaz_coregi"
+    },
+    {
+      "id": "l7",
+      "title": "Babiko (Zerfet)",
+      "desc": "A dish from Dersim/Sivas regions with butter and garlic yogurt.",
+      "ingredients": "Flour, Water, Salt, Butter, Garlic Yogurt.",
+      "steps": "Bake a thick bread, hollow it out. Crumble the inside back in, pour hot butter over it.",
+      "image": "babiko"
+    },
+    {
+      "id": "l8",
+      "title": "Bat",
+      "desc": "Famous cold lentil dish of Tokat Alevis.",
+      "ingredients": "Green lentils, fine bulgur, tomato paste, walnuts, vine leaves.",
+      "steps": "Boil lentils, mix with other ingredients in a watery consistency. Eaten with vine leaves.",
+      "image": "bat"
+    },
+    {
+      "id": "l9",
+      "title": "Zülbiye",
+      "desc": "Meat dish with shallots made during Muharram.",
+      "ingredients": "Chickpeas, Meat, Shallots, Cumin.",
+      "steps": "Cook meat and chickpeas, add plenty of shallots. A special occasion dish.",
+      "image": "zulbiye"
+    },
+    {
+      "id": "l10",
+      "title": "Sütlaç (Rice Pudding)",
+      "desc": "Light dessert known as 'milky food' in dervish lodges.",
+      "ingredients": "Milk, Rice, Sugar.",
+      "steps": "Boil rice, cook with milk and sugar until thickened. Can be baked on top.",
+      "image": "sutlac"
     }
   ],
+
   "semahItems": [
     {
       "id": "sm1",
       "title": "Semah of the Forty",
-      "content": "Traditional dance."
+      "content": "The most fundamental Semah turned in the Assembly of the Forty, expressing love and divine attraction."
+    },
+    {
+      "id": "sm2",
+      "title": "Cranes (Turnalar) Semah",
+      "content": "Symbolizes the flight of the crane and sending greetings to Imam Ali. Figures resemble bird wings."
+    },
+    {
+      "id": "sm3",
+      "title": "Wheel (Çark) Semah",
+      "content": "Symbolizes the rotation of the universe, atoms, and planets. Usually performed at the end of the Cem."
+    },
+    {
+      "id": "sm4",
+      "title": "Tahtacı Semahs",
+      "content": "Unique Semahs of the Tahtacı Turkmens of the Aegean/Mediterranean, characterized by sharp and rhythmic figures."
+    },
+    {
+      "id": "sm5",
+      "title": "Hubyar Semah",
+      "content": "An enthusiastic Semah performed by souls belonging to the Hubyar Sultan hearth in the Tokat region."
+    },
+    {
+      "id": "sm6",
+      "title": "Muhammad Ali Semah",
+      "content": "Expresses love for Muhammad and Ali. Hands look to the sky (receiving from Truth) and the ground (giving to the people)."
+    },
+    {
+      "id": "sm7",
+      "title": "Semah of Hearts",
+      "content": "Symbolizes the unity of hearts, performed more slowly and with deep reverence."
+    },
+    {
+      "id": "sm8",
+      "title": "Haji Bektash Semah",
+      "content": "The Semah belonging to the Nevşehir region, performed for centuries in the Hunkar's dervish lodge."
+    },
+    {
+      "id": "sm9",
+      "title": "Urfa Kısas Semah",
+      "content": "Semah turned with unique hymns by Turkmen Alevis in the Kısas region."
+    },
+    {
+      "id": "sm10",
+      "title": "Mengü Semah",
+      "content": "A type of Semah common in the Aegean region, especially around Izmir."
     }
   ],
+
   "niyazItems": [
     {
       "id": "n1",
-      "title": "Table Prayer",
-      "content": "May it increase..."
+      "title": "Table Prayer (Gülbank)",
+      "content": "Bismişah... May it increase and not decrease. May the Truth-Muhammad-Ali grant abundance. Halal to those who eat, proof to those who feed. Hu to the Truth."
+    },
+    {
+      "id": "n2",
+      "title": "Morning Prayer",
+      "content": "Bismişah... May our day be blessed, may evil be repelled. May believers be happy. May the Truth-Muhammad-Ali be our helper, Bozatlı Hızır be our companion."
+    },
+    {
+      "id": "n3",
+      "title": "Bedtime Prayer",
+      "content": "I lay down, Allah raise me, plunge me into light. While the soul leaves the body, send me with faith. My head on the pillow, my eye on the Dervish lodge. Hu."
+    },
+    {
+      "id": "n4",
+      "title": "Lokma Prayer",
+      "content": "May your morsels be accepted, your wishes granted. May it be written in the register of glory. May the Truth protect, Hızır watch over. The tongue is ours, the breath is the Hunkar's."
+    },
+    {
+      "id": "n5",
+      "title": "Oath (Ikrar) Prayer",
+      "content": "Allah Allah... May your oath be ancient, your face white, your heart pure. May your path be open, your light never extinguished. Recorded in the notebook of Truth-Muhammad-Ali."
+    },
+    {
+      "id": "n6",
+      "title": "Awakening the Light (Delil)",
+      "content": "May our light burn and kindle, may God's light be upon our community. May the hearts of believers be filled with light. Hu to the Truth."
+    },
+    {
+      "id": "n7",
+      "title": "Journey Prayer",
+      "content": "Bismişah... May you find intercession from the road you take and the Pir you call upon. May Hızır be your companion, Ali be your guide."
+    },
+    {
+      "id": "n8",
+      "title": "Prayer for the Sick",
+      "content": "Allah Allah... Grant healing with your name Shafi. May Allah who gives the trouble also give the cure. Grant healing to the sick for the sake of the Ahl al-Bayt."
+    },
+    {
+      "id": "n9",
+      "title": "For Service Holders",
+      "content": "May your service be accepted. May your face be white. May you never separate from the train of Truth-Muhammad-Ali. May your efforts not go to waste."
+    },
+    {
+      "id": "n10",
+      "title": "Nad-i Ali Prayer",
+      "content": "Prayer read in difficult times: 'Call upon Ali, who is the manifestation of wonders. You will find him a helper in all your troubles...'"
     }
   ],
+
   "quotes": [
     {
       "id": "q1",
-      "quote": "Do not hurt even if you are hurt.",
+      "quote": "Do not hurt, even if you are hurt.",
       "author": "Haji Bektash Veli"
+    },
+    {
+      "id": "q2",
+      "quote": "The end of the path not guided by science is darkness.",
+      "author": "Haji Bektash Veli"
+    },
+    {
+      "id": "q3",
+      "quote": "Control your hand, your loins, and your tongue.",
+      "author": "Haji Bektash Veli"
+    },
+    {
+      "id": "q4",
+      "quote": "I am the city of knowledge, and Ali is its gate.",
+      "author": "Prophet Muhammad"
+    },
+    {
+      "id": "q5",
+      "quote": "Let them turn, I will not turn from my path.",
+      "author": "Pir Sultan Abdal"
+    },
+    {
+      "id": "q6",
+      "quote": "I would be a slave for forty years to him who teaches me a single letter.",
+      "author": "Imam Ali"
+    },
+    {
+      "id": "q7",
+      "quote": "Do not bow down to injustice. For along with your rights, you will lose your honor.",
+      "author": "Imam Ali"
+    },
+    {
+      "id": "q8",
+      "quote": "In hell, there is no wood; everyone carries their own fire.",
+      "author": "Pir Sultan Abdal"
+    },
+    {
+      "id": "q9",
+      "quote": "Love the created for the Creator's sake.",
+      "author": "Yunus Emre"
+    },
+    {
+      "id": "q10",
+      "quote": "The greatest miracle is working (labor).",
+      "author": "Haji Bektash Veli"
+    },
+    {
+      "id": "q11",
+      "quote": "The greatest book to read is the human being.",
+      "author": "Haji Bektash Veli"
+    },
+    {
+      "id": "q12",
+      "quote": "Come souls, let us be one.",
+      "author": "Pir Sultan Abdal"
+    },
+    {
+      "id": "q13",
+      "quote": "If the exterior is ruined, the interior cannot be prosperous.",
+      "author": "Haji Bektash Veli"
+    },
+    {
+      "id": "q14",
+      "quote": "Knowledge is superior to wealth. For you guard wealth; but knowledge guards you.",
+      "author": "Imam Ali"
+    },
+    {
+      "id": "q15",
+      "quote": "A person is an enemy of what they do not know.",
+      "author": "Imam Ali"
+    },
+    {
+      "id": "q16",
+      "quote": "Learn manners from the unmannerly.",
+      "author": "Yunus Emre"
+    },
+    {
+      "id": "q17",
+      "quote": "A rose blossomed in the garden of love, its scent spread to the world.",
+      "author": "Kul Himmet"
+    },
+    {
+      "id": "q18",
+      "quote": "Your love took me from myself, I need you, only you.",
+      "author": "Yunus Emre"
+    },
+    {
+      "id": "q19",
+      "quote": "Let us be one, let us be big, let us be alive.",
+      "author": "Haji Bektash Veli"
+    },
+    {
+      "id": "q20",
+      "quote": "Justice is the foundation of the state.",
+      "author": "Caliph Omar (often referenced regarding Ali's justice)"
     }
   ]
 }
